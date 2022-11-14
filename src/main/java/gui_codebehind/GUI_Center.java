@@ -26,7 +26,7 @@ public final class GUI_Center{
 
 	private GUI_Center(){
 		centerPanel = new javax.swing.JPanel();
-		this.factory.setSize(centerPanel, 3*GUI_Field.FIELDWIDTH, 3*GUI_Field.FIELDHEIGHT);
+		this.factory.setSize(centerPanel, 6*GUI_Field.FIELDWIDTH, 6*GUI_Field.FIELDHEIGHT);
 		centerPanel.addMouseListener(new CenterMouseListener(this));
 		centerPanel.setLayout(new BoxLayout(centerPanel, BoxLayout.Y_AXIS));
 		 
